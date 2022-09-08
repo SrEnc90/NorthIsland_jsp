@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+<tlibversion>1.0</tlibversion>
+<jspversion>1.0</jspversion>
+<shortname>ct</shortname>
+<tag>
+<name>llenacategorias</name>
+<tagclass>etiquetas.LlenaCategorias</tagclass>
+<bodycontent>empty</bodycontent>
+<info>Muestra las opciones del combo categoria para la tabla producto</info>
+</tag>
+<!-- otras etiquetas de la librería -->
+<tag>
+<name>llenaCargos</name>
+<tagclass>etiquetas.LlenaCargos</tagclass>
+<bodycontent>empty</bodycontent>
+<info>Muestra las opciones del combo cargos para la tabla empleado</info>
+</tag>
+<tag>
+<name>llenaEstadoBoletas</name>
+<tagclass>etiquetas.LlenaEstadoBol</tagclass>
+<bodycontent>empty</bodycontent>
+<info>Muestra las opciones del combo estado para boleta</info>
+</tag>
+<tag>
+<name>llenaDistritos</name>
+<tagclass>etiquetas.LlenaDistritos</tagclass>
+<bodycontent>empty</bodycontent>
+<info>Muestra las opciones del combo distritos</info>
+</tag>
+
+<tag>
+<name>llenaestado</name>
+<tagclass>etiquetas.LlenaEstadoTag</tagclass>
+<bodycontent>empty</bodycontent>
+<info>Muestra las opciones del estado para la tabla producto</info>
+<attribute>
+<name>value</name>
+<required>false</required>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+</tag>
+
+
+
+</taglib>
